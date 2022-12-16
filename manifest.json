@@ -1,18 +1,18 @@
 {
-  "id": "dev.replugged.PluginTemplate",
-  "name": "Plugin Template",
-  "description": "A plugin template",
+  "id": "dev.SomeAspy.ReCroissant",
+  "name": "ReCroissant",
+  "description": "The Best Plugin Ever Made, now for Replugged!",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "Aiden",
+    "discordID": "516750892372852754",
+    "github": "SomeAspy"
   },
   "version": "1.0.2",
   "updater": {
     "type": "github",
-    "id": "replugged-org/plugin-template"
+    "id": "SomeAspy/ReCroissant"
   },
-  "license": "MIT",
+  "license": "GPLv3",
   "type": "replugged-plugin",
   "renderer": "src/index.ts"
 }
