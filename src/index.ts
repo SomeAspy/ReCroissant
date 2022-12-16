@@ -1,13 +1,17 @@
+const audio = new Audio(
+  "https://raw.githubusercontent.com/SomeAspy/ReCroissant/main/croissant.mp3",
+);
+
+function play(): void {
+  // eslint-disable-next-line @typescript-eslint/no-floating-promises
+  audio.play();
+}
+
 export function start(): void {
-  document.addEventListener("click", function play() {
-    const audio = new Audio(
-      "https://raw.githubusercontent.com/SomeAspy/ReCroissant/main/croissant.mp3",
-    );
-    // eslint-disable-next-line @typescript-eslint/no-floating-promises
-    audio.play();
-  });
+  document.addEventListener("click", play);
 }
 
 export function stop(): void {
-  console.log("You must restart replugged :clueless:");
+  console.log("🥐");
+  document.removeEventListener("click", play);
 }
